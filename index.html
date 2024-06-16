@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+    <title>Mark Prainito | Full-Stack Developer</title>
+</head>
+<body>
+    <nav>
+        <div class="nav__content">
+            <div class="logo"><a href="#">Mark</a></div>
+            <label for="check" class="checkbox">
+                <i class="ri-menu-line"></i>
+            </label>
+            <input type="checkbox" name="check" id="check">
+            <ul>
+                <li><a href="#home" class="navbar__link active">Home</a></li>
+                <li><a href="#about" class="navbar__link">About</a></li>
+                <li><a href="#portfolio" class="navbar__link">Portfolio</a></li>
+                <li><a href="#contact" class="navbar__link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section id="home" class="section__primary">
+        <div class="container__hero">
+            <div class="content">
+                <p class="subtitle">HELLO</p>
+                <h1 class="title">
+                    I'm <span>Mark Prainito<br></span>a <span>Full-Stack Web Developer</span>
+                </h1>
+                <p class="description">
+                    Located in Chicago, IL 
+                    <i class="ri-building-fill icon"></i>
+                </p> 
+                <span>
+                    <a href="https://www.linkedin.com/in/markap90" target="_blank" class="icon-link"><i class="ri-linkedin-box-fill"></i></a>
+                    <a href="https://github.com/spidermp" target="_blank" class="icon-link"><i class="ri-github-fill"></i></a>
+                </span>                
+            </div>
+            <div class="image">
+                <img src="assets/profile.jpeg" alt="profile">
+            </div>
+        </div>
+    </section>
+    <section id="about" class="section__secondary">
+        <div class="container__about">
+            <img src="assets/IMG_0948.jpeg" alt="image 1" class="content__image content__image--1">
+            <img src="assets/IMG_9066.jpeg" alt="image 2" class="content__image content__image--2">
+            <div class="content__wrapper">
+                <h3 class="content__heading">About Me</h3>
+                <p class="content__paragraph">I'm a junior web developer and lifelong learner who enjoys crafting seamless and intuitive web experiences. I strive to deliver high-quality solutions that meet client needs. 
+                <br><br>
+                Outside of coding, I enjoy traveling and exploring new places, which fuels my creativity and broadens my perspective. Whether I'm solving complex problems or discovering new cultures, I bring curiosity and enthusiasm to everything I do.</p>
+            </div>
+        </div>
+    </section> 
+    <section id="portfolio" class="section__primary">
+        <div class="container__portfolio">
+            <div class="portfolio__wrapper">
+                <h3 class="portfolio__heading">Portfolio</h3>
+                <h2 class="portfolio__subtitle">Check Out My Website That Dazzles!</h2>
+                <p class="portfolio__text">A project to showcase my developing full-stack development skills.</p>
+            </div>
+            <div class="portfolio__projects">
+                <a href="https://books-crud-app-frontend.vercel.app/books">
+                    <img src="assets/book-pic.jpg" alt="stock" class="portfolio__image">
+                </a>
+                <p>HTML & CSS</p>
+                <h3>Capital City Express LLC</h3>
+            </div>
+        </div>
+    </section>  
+    <section id="contact" class="section__secondary">
+        <div class="container__contact">
+            <div class="contact__wrapper">
+                <h3 class="contact__heading">
+                    <span class="contact__heading-line"></span>
+                    Contact Me
+                    <span class="contact__heading-line"></span>
+                </h3>
+                <h2 class="contact__subtitle">Let's Talk!</h2>
+            </div>
+            <div class="contact__buttons">
+                <a href="mailto:manthonyp1@gmail.com" class="contact__button contact__button--email">
+                    <i class="ri-mail-line"></i>
+                    <div class="contact__info">
+                        <h4>Email Me</h4>
+                    </div>
+                </a>
+                <a href="https://www.linkedin.com/in/markap90" class="contact__button contact__button--linkedin" target="_blank">
+                    <i class="ri-linkedin-box-line"></i>
+                    <div class="contact__info">
+                        <h4>LinkedIn</h4>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <h3><span id="year"></span> <span class="thin-bar">|</span> All Rights Reserved</h3>
+    </footer> 
+    <button class="btn--top" onclick="scrollToTop()">
+        <i class="ri-arrow-up-line"></i>
+    </button>
+    <script src="main.js"></script>
+</body>
+</html>
